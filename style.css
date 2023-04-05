@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body,
+html {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-y: scroll;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.parallax {
+  background: url(./imgs/parallax-1.jpg);
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.8;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.par-index {
+  /* background-color: #ad8e70; */
+  background: rgba(244, 148, 129, 0.7);
+  font-size: 40px;
+  font-weight: 400;
+
+  letter-spacing: 2px;
+  color: white;
+  padding: 10px 60px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax2 {
+  background: url("./imgs//parallax-2.jpg");
+  height: 60%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.8;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.par-content{
+  padding: 58px 100px;
+}
+.par-title{
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+
+.par-text{
+  font-size: 17px;
+  line-height: 30px;
+  margin: 15px 0px;
+  text-align: center;
+  color: #7F8487;
+}
+.par-sub-content{
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding: 58px 100px;
+  color: white;
+}
+.par-content2-small{
+  padding: 58px 100px;
+  background-color: #c1a3a3ce;
+
+  color: white;
+}
+.parallax3{
+  background: url('./imgs/parallex-3.jpg');
+  height: 60%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txt{
+  color: white;
+}
+.parallax4{
+  background: url('./imgs/parallax-4.jpg');
+  height: 70%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+form{
+  height: 620px;
+  width: 500px;
+  background-color: rgba(255,255,255,0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 55px 60px;
+  color: white;
+  
+}
+form:hover{
+  transform: scale(1.02);
+  transition: 0.5s all ease;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  background-color: #fff;
+  color: #7F8487;
+  padding: 10px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
